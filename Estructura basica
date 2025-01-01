@@ -1,0 +1,24 @@
+social-sentiment-analyzer/
+│
+├── app/
+│   ├── __init__.py
+│   ├── routes.py          # Define rutas de Flask.
+│   ├── models.py          # Esquema de Base de Datos.
+│   ├── utils.py           # Funciones auxiliares.
+│   ├── sentiment_analysis.py  # Lógica del análisis de sentimiento.
+│   ├── static/            # CSS, JS, imágenes.
+│   └── templates/         # Plantillas HTML (si usas Flask con Jinja).
+│
+├── data/
+│   ├── raw_data/          # Datos crudos recolectados.
+│   ├── processed_data/    # Datos procesados.
+│
+├── frontend/
+│   ├── streamlit_app.py   # Interfaz con Streamlit.
+│
+├── tests/
+│   ├── test_routes.py     # Pruebas para el backend.
+│   ├── test_sentiment.py  # Pruebas para el análisis de sentimiento.
+│
+├── requirements.txt       # Dependencias del proyecto.
+└── README.md              # Documentación del proyecto.
